@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Team Creator</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="about_us">©️Max Kobzer &amp; Saar Keshet</string>
+    <string-array name="numbers">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="heights">
+        <item>Lower than 160</item>
+        <item>160–164</item>
+        <item>165–170</item>
+        <item>171–175</item>
+        <item>176–180</item>
+        <item>181–185</item>
+        <item>186–190</item>
+        <item>191–195</item>
+        <item>196–200</item>
+        <item>201–205</item>
+        <item>206–210</item>
+        <item>Higher than 210</item>
+    </string-array>
+    <string-array name="minutes">
+        <item>Select Minutes</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="foot">
+        <item>Left</item>
+        <item>Right</item>
+        <item>Both</item>
+    </string-array>
+</resources>

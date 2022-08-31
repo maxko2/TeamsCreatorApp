@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginTop="1dp"
+    android:background="#EB7A8A91"
+    android:weightSum="4">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/iconImgA"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:contentDescription=""
+        android:scaleType="centerCrop"
+        android:src="@drawable/personavatar"
+        app:riv_oval="true"
+        tools:layout_margin="10sp" />
+
+    <LinearLayout
+        android:layout_width="140dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/tvNameA"
+                android:layout_width="119dp"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="center_vertical"
+                android:text="name:"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvDetailsA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="casual"
+            android:text="details:"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:background="?android:attr/listDivider"
+        tools:background="#B70C0808" />
+
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/iconImgB"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:layout_gravity="center_vertical"
+        android:contentDescription=""
+        android:scaleType="centerCrop"
+        android:src="@drawable/personavatar"
+        app:riv_oval="true"
+        tools:layout_margin="10sp" />
+
+    <LinearLayout
+        android:layout_width="140dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/tvNameB"
+                android:layout_width="119dp"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:gravity="center_vertical"
+                android:text="name:"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvDetailsB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="casual"
+            android:text="details:"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
